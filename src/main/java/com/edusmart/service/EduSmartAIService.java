@@ -6,7 +6,7 @@ import dev.langchain4j.service.V;
 public interface EduSmartAIService {
 
     @UserMessage("""
-            Redacta una frase publicitaria creativa y llamativa de máximo 100 caracteres 
+            Redacta una frase publicitaria de máximo 100 caracteres 
             para vender un curso de {{tema}} dirigido a {{audiencia}}.
             """)
     String generarPublicidad(
